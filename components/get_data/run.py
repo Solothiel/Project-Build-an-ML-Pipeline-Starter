@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 """
-This script download a URL to a local destination
+This script downloads a URL to a local destination
 """
 import argparse
 import logging
 import os
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import wandb
 
