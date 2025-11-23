@@ -71,6 +71,9 @@ def go(config: DictConfig):
                 "kl_threshold": config["data_check"]["kl_threshold"],
                 "min_price": config["etl"]["min_price"],
                 "max_price": config["etl"]["max_price"],
+            },
+        )
+            
 
         if "data_split" in active_steps:
             ##################
