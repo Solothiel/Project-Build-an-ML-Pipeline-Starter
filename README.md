@@ -10,6 +10,7 @@ In this project you will build such a pipeline.
 
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
+  * [Repository](#repository)
   * [Create environment](#create-environment)
   * [Get API key for Weights and Biases](#get-api-key-for-weights-and-biases)
   * [The configuration](#the-configuration)
@@ -42,10 +43,12 @@ git clone https://github.com/Solothiel/Project-Build-an-ML-Pipeline-Starter.git
 ```
 
 
-### My Project Repository for Git
+### My Project Repository & Wandb
 
 [ML Pipeline Starter project](https://github.com/Solothiel/Project-Build-an-ML-Pipeline-Starter "Udacity ML Pipeline Starter repo")
 
+
+https://wandb.ai/D501_Udacity/nyc_airbnb?nw=nwuserdste486
 
 and go into the repository:
 
