@@ -38,8 +38,14 @@ and click on `Fork` in the upper right corner. This will create a fork in your G
 repository that is under your control. Now clone the repository locally so you can start working on it:
 
 ```
-git clone https://github.com/[your github username]/Project-Build-an-ML-Pipeline-Starter.git
+git clone https://github.com/Solothiel/Project-Build-an-ML-Pipeline-Starter.git
 ```
+
+
+### My Project Repository for Git
+
+[ML Pipeline Starter project](https://github.com/Solothiel/Project-Build-an-ML-Pipeline-Starter "Udacity ML Pipeline Starter repo")
+
 
 and go into the repository:
 
