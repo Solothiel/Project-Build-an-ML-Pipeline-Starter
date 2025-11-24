@@ -66,11 +66,11 @@ def go(config: DictConfig):
             mlflow.run(os.path.join(hydra.utils.get_original_cwd(), "src", "data_check"),
             entry_point="main",
             parameters={
-                "csv": "clean_sample.csv:latest",  
-                "ref": "clean_sample.csv:reference",  
-                "kl_threshold": config["data_check"]["kl_threshold"],  
-                "min_price": config["etl"]["min_price"],  
-                "max_price": config["etl"]["max_price"],  
+                "csv": str("clean_sample.csv:latest"),  
+                "ref": str("clean_sample.csv:reference"),  
+                "kl_threshold": float(config["data_check"]["kl_threshold"]),  
+                "min_price": float(config["etl"]["min_price"]),  
+                "max_price": float(config["etl"]["max_price"]),  
             },
         )
             
@@ -119,7 +119,9 @@ def go(config: DictConfig):
                 entry_point="main",
                 parameters={
                     "mlflow_model": "random_forest_export:prod",
-                    "test_dataset": "test
+                    "test_dataset": "test_data.csv:latest",
+                },
+            )
 
 
 if __name__ == "__main__":
